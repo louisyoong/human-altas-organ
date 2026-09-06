@@ -220,7 +220,6 @@ header button:hover {
 }
 main {
   height: calc(100dvh - 184px);
-  min-height: 650px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 300px;
 }
