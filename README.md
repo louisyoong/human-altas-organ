@@ -1,4 +1,4 @@
-# Human Atlas — combined organ explorer
+# Human Atlas Organs combined organ explorer
 
 **[Live preview →](https://human-altas-organs.vercel.app)**
 
