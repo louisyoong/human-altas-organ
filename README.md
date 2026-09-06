@@ -1,5 +1,7 @@
 # Human Atlas — combined organ explorer
 
+**[Live preview →](https://human-altas-organs.vercel.app)**
+
 ![Human Atlas interface showing the full body view with body systems and layer controls](screenshot.png)
 
 Full editable HTML, CSS, JavaScript, Three.js and local anatomy data.
