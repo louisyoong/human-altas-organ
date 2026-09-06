@@ -1,5 +1,7 @@
 # Human Atlas — combined organ explorer
 
+![Human Atlas interface showing the full body view with body systems and layer controls](screenshot.png)
+
 Full editable HTML, CSS, JavaScript, Three.js and local anatomy data.
 
 Run from this folder:
@@ -25,6 +27,7 @@ Each view supports camera rotation, zoom, front/back/side views, search within t
 - dist/models/atlas.json: full structure catalogue and geometry offsets
 - dist/models/body-\*.bin.gz: local anatomical geometry
 - dist/three.js and dist/orbit.js: Three.js dependencies
+- dist/favicon.svg, dist/favicon-32.png, dist/apple-touch-icon.png: browser tab and home-screen icons
 
 Upload dist contents to any compatible static host. Fonts use an optional external Google Fonts stylesheet with local fallbacks.
 
