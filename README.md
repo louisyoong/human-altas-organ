@@ -33,6 +33,8 @@ Upload dist contents to any compatible static host. Fonts use an optional extern
 
 ## Attribution and scope
 
+Copyright (c) 2026 Louis Yoong. The interface code in this repository is licensed under MIT — see [LICENSE](LICENSE).
+
 BodyParts3D, copyright The Database Center for Life Science, licensed CC Attribution 4.0 International: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
 Three.js and OrbitControls are MIT licensed; retain their notices.
 
