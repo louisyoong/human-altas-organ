@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Help, FAQ and contact for Human Atlas — Anatomy Explorer."
+    />
+    <title>Support — Human Atlas</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #101820;
+        --panel: #17212b;
+        --raised: #202d38;
+        --edge: #2b3a47;
+        --text: #ecf2f6;
+        --muted: #a2b2bf;
+        --accent: #67e5df;
+        font-family: "DM Sans", sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        line-height: 1.6;
+      }
+      a {
+        color: var(--accent);
+      }
+      a:focus-visible,
+      summary:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 4px;
+      }
+      header {
+        min-height: 88px;
+        background: #0c1219;
+        border-bottom: 1px solid var(--edge);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 32px;
+        gap: 24px;
+      }
+      .brand {
+        display: flex;
+        gap: 17px;
+        align-items: center;
+        text-decoration: none;
+        color: var(--text);
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      .brand small {
+        display: block;
+        font-size: 10px;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: var(--muted);
+        margin-top: 5px;
+      }
+      .mark {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 30px;
+        letter-spacing: -1px;
+        border: 1px solid #39515e;
+        padding: 5px 11px;
+        line-height: 1.2;
+      }
+      .mark > span {
+        color: var(--accent);
+      }
+      .back {
+        font-size: 14px;
+        padding: 10px 15px;
+        border: 1px solid var(--edge);
+        border-radius: 5px;
+        color: var(--text);
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .back:hover {
+        background: var(--raised);
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 56px 24px 80px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 2.5px;
+        color: var(--accent);
+        font-weight: 600;
+      }
+      h1,
+      h2 {
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 600;
+        line-height: 1.1;
+        margin: 8px 0 16px;
+      }
+      h1 {
+        font-size: clamp(40px, 8vw, 60px);
+      }
+      h2 {
+        font-size: 30px;
+        margin-top: 56px;
+      }
+      .lead {
+        color: var(--muted);
+        font-size: 17px;
+        margin: 0;
+      }
+      .card {
+        margin-top: 32px;
+        background: var(--panel);
+        border: 1px solid var(--edge);
+        border-radius: 8px;
+        padding: 24px;
+      }
+      .card h3 {
+        margin: 0 0 6px;
+        font-size: 17px;
+      }
+      .card p {
+        margin: 0 0 16px;
+        color: var(--muted);
+      }
+      .button {
+        display: inline-block;
+        background: var(--accent);
+        color: #0c1219;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 10px 18px;
+        border-radius: 5px;
+      }
+      details {
+        border-top: 1px solid var(--edge);
+        padding: 16px 0;
+      }
+      details:last-of-type {
+        border-bottom: 1px solid var(--edge);
+      }
+      summary {
+        cursor: pointer;
+        font-weight: 600;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      summary::after {
+        content: "+";
+        color: var(--accent);
+        font-size: 20px;
+        line-height: 1;
+      }
+      details[open] summary::after {
+        content: "−";
+      }
+      details p,
+      details ul {
+        color: var(--muted);
+        margin: 12px 0 0;
+      }
+      details ul {
+        padding-left: 20px;
+      }
+      footer {
+        border-top: 1px solid var(--edge);
+        color: #7f95a6;
+        font-size: 13px;
+        padding: 24px 32px;
+        text-align: center;
+      }
+      @media (max-width: 600px) {
+        header {
+          padding: 16px;
+        }
+        .brand > span:last-child {
+          display: none;
+        }
+        main {
+          padding: 40px 16px 64px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="./"
+        ><span class="mark">H<span> / </span>A</span
+        ><span>HUMAN ATLAS<small>ANATOMY EXPLORER</small></span></a
+      >
+      <a class="back" href="./">← Back to atlas</a>
+    </header>
+
+    <main>
+      <div class="eyebrow">SUPPORT</div>
+      <h1>How can we help?</h1>
+      <p class="lead">
+        Answers to common questions about Human Atlas, and how to reach us if
+        something isn't working.
+      </p>
+
+      <div class="card">
+        <h3>Contact support</h3>
+        <p>
+          Report a bug, ask a question or suggest a feature. Include your device,
+          browser and the category you were viewing so we can help faster.
+        </p>
+        <a
+          class="button"
+          href="https://github.com/louisyoong/human-altas-organ/issues/new"
+          target="_blank"
+          rel="noreferrer"
+          >Open a support request ↗</a
+        >
+      </div>
+
+      <h2>Frequently asked questions</h2>
+
+      <details>
+        <summary>The 3D model doesn't load or the screen stays blank.</summary>
+        <p>
+          Human Atlas needs a modern browser with WebGL enabled. Try the
+          following:
+        </p>
+        <ul>
+          <li>Update your browser or device to the latest version.</li>
+          <li>Enable hardware acceleration in your browser settings.</li>
+          <li>Close other tabs or apps to free up memory, then reload.</li>
+          <li>Check your connection — the anatomy data downloads on first load.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>How do I rotate, zoom and select structures?</summary>
+        <p>
+          Drag to rotate, pinch or scroll to zoom, and tap or click a structure
+          to inspect it. Use the front, back and side buttons to reset the
+          camera, and the search box to find a structure within the current
+          category.
+        </p>
+      </details>
+
+      <details>
+        <summary>What do Isolate and Exploded view do?</summary>
+        <p>
+          Isolate hides everything except your selection so you can study it on
+          its own. Exploded view spreads layers apart to show how structures fit
+          together. Use Clear selection to return to the full view.
+        </p>
+      </details>
+
+      <details>
+        <summary>How do I see inside the heart?</summary>
+        <p>
+          Open the Heart category and use Reveal inside, or hide the heart walls
+          layer. Chamber cavities are shown as solid volumes.
+        </p>
+      </details>
+
+      <details>
+        <summary>Why do some organs have only one piece?</summary>
+        <p>
+          Category counts reflect modeled pieces in the source dataset, not
+          distinct organs. Small organs such as the stomach or spleen are a
+          single mesh, and the data does not include detailed internal kidney
+          anatomy.
+        </p>
+      </details>
+
+      <details>
+        <summary>Can I use Human Atlas for medical decisions?</summary>
+        <p>
+          No. Human Atlas is an educational tool based on an adult male reference
+          model. It does not represent all anatomy or human variation and must
+          not be used for diagnosis, treatment or surgical planning.
+        </p>
+      </details>
+
+      <details>
+        <summary>Does Human Atlas collect my personal data?</summary>
+        <p>
+          The app does not require an account. Fonts are loaded from Google
+          Fonts; you can review Google's privacy policy for how that service
+          handles requests.
+        </p>
+      </details>
+
+      <details>
+        <summary>Where does the anatomy data come from?</summary>
+        <p>
+          Models come from BodyParts3D, © The Database Center for Life Science,
+          licensed under
+          <a
+            href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+            target="_blank"
+            rel="noreferrer"
+            >Creative Commons Attribution 4.0 International ↗</a
+          >.
+        </p>
+      </details>
+    </main>
+
+    <footer>© 2026 Louis Yoong · Human Atlas — Anatomy Explorer</footer>
+  </body>
+</html>

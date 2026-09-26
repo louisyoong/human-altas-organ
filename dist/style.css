@@ -725,6 +725,9 @@ dialog a {
   color: var(--accent);
   text-underline-offset: 3px;
 }
+dialog a + a {
+  margin-left: 20px;
+}
 [hidden] {
   display: none !important;
 }
